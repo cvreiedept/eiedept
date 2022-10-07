@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Publications</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/workshops.css">
+    <!-- <link rel="stylesheet" href="css/labdisp.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Poppins:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b31354659.js" crossorigin="anonymous"></script>
+    <style>
+
+        .fixedmenu{
+            background: #FFF9B0;
+            color: #E7F6F2;
+            width: 120px;
+            height: 200px;
+            position: fixed;
+            top: 250px;
+            bottom: 0;
+            right: 0;
+        }
+
+        .fixedmenu ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        .fixedmenu ul li{
+            height: 40px;
+            line-height: 40px;
+            /* border: 1px solid red; */
+            width: 120px;
+            text-align: center;
+            /* margin-top: 8px; */
+        }
+        .fixedmenu ul li:hover{
+            background:burlywood;
+            color:cornsilk;
+        }
+        .fixedmenu ul li a{
+            text-decoration: none;
+            display: block;
+            font-family: garamond;
+            /* font-size: 1.5em; */
+            color:crimson;
+            font-weight: bolder;
+        }
+        .fixedmenu ul li a:hover{
+            background:rgb(36, 28, 18);
+            color:rgb(224, 221, 250);
+        }
+        @media screen and (max-width: 400px){
+            .fixedmenu {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+    <header>
+        <div class="container-fluid">
+            <div class="row bg-info">
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="images/logo.png">
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-center text-white h1bg">
+                        <span class="eieFont">Electronics and Instrumentation Engineering</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <navigation>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-gradient sticky-top">
+        <a class="navbar-brand text-center" style="margin-right: 35px" href="index.html">EIE DEPT
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About EIE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="visionmission.html">Mission and Vision</a>
+                <a class="dropdown-item" href="departmentHighlights.html">Department Highlights</a>
+                <a class="dropdown-item" href="workshops.html">Workshops</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                People
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="faculty.html">Faculty</a>
+                <a class="dropdown-item" href="supportingStaff.html">Supporting Staff</a>
+                <!-- <a class="dropdown-item" href="#">Profiles and Achievements</a> -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Academics
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="academicCurriculam.html">Academic Curriculum</a>
+                <a class="dropdown-item" href="academicProgram.html">Academic Program</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown  active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Research
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="publication.html">Publications</a>
+                <a class="dropdown-item" href="patents.html">Patents</a>
+                <a class="dropdown-item" href="research.html">Research/Consultancy/Sponsored Projects</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Facilities
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="infraFacilities.html">Infrastructural and Lab Facilities</a>
+                <!-- <a class="dropdown-item" href="laboratories.html">Lab Facilities</a> -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Library
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- <a class="dropdown-item" href="#">Technolites</a>
+                                  <a class="dropdown-item" href="#">Invited Talks</a>
+                                  <a class="dropdown-item" href="#">IETE</a> -->
+                <a class="dropdown-item" href="library.html">Dept Library & Seminar Hall</a>
+                <a class="dropdown-item" href="achievements.html">Awards and Achievements</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="conference.html">Conference <span class="sr-only"></span></a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </navigation>
+    <!-- Publication details -->
+    <a name="2021"></a>
+    <section class="mt-4" data-aos="zoom-in">
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="text-center headingFont">
+                        Publications
+                    </h1>
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4>Publications in International Journals (Year: 2020-21)</h4>
+                            <table class="table text-white table-bordered table-stripped">
+                                <tr class="thead-dark">
+                                    <th>Sl. No</th>
+                                    <th>Name of the Faculty</th>
+                                    <th>Title of Publication</th>
+                                    <th>Position of the Author</th>
+                                    <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                    <!-- <th>Number of Citations</th> -->
+                                    <th>Name of Journal/Publishers</th>
+                                    <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Dr. Santosh Kumar Sahoo</td>
+                                    <td rowspan=3>Defective object classification using advanced optimization technique</td>
+                                    <td>1st</td>
+                                    <td rowspan=3>Scopus</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                    <td rowspan=3>Materials Today: Proceedings, Elsevier</td>
+                                    <td rowspan=3>pp.1-5, doi.org/10.1016/j.matpr.2020.08.481, September, 2020.</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Dr. Bellamkonda Saidulu</td>
+                                    <td>2nd</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Mr. D. Shyam Prasad</td>
+                                    <td>3rd</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Dr. Bellamkonda Saidulu</td>
+                                    <td rowspan=2>Design of MOS based Tera-&#8486; Resistance for Biomedical Signal
+                                        (mHz) Applications</td>
+                                    <td>1st</td>
+                                    <td rowspan=2>Scopus</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                    <td rowspan=2>Journal of Solid-State Technology</td>
+                                    <td rowspan=2>Vol. 63 No. 6 (2020)</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Dr. Santosh Kumar Sahoo</td>
+                                    <td>2nd</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Dr. Santosh Kumar Sahoo</span></td>
+                                    <td rowspan=2>Self-Operational Wastewater Treatment Plant using Supervised Learning
+                                        Algorithm</span></td>
+                                    <td>2nd</td>
+                                    <td rowspan=2>Scopus</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                    <td rowspan=2>International Journal of Advanced Science and Technology</td>
+                                    <td rowspan=2>Vol. 29, No. 3 , pp.
+                                        11709-11716, (2020)</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Ms. Y. Divya</td>
+                                    <td>1st</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Dr. Shyam Prasad Devulapalli<br>Srinivasa Rao Chanamallu<br>Satya Prasad Kodati</td>
+                                    <td>A hybrid ICA Kalman
+                                        predictor algorithm for ocular artifacts removal</td>
+                                    <td>1st</td>
+                                    <td>Scopus</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                    <td>International Journal of Speech Technology</td>
+                                    <td>June, Springer, doi.org/ 10.1007/s10772-020-09721-y</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Mr. C. Pramod Kumar</td>
+                                    <td>Automatic tri-map segmentation for retinal blood vessels</td>
+                                    <td>2nd</td>
+                                    <!-- <td>&nbsp;</td> -->
+                                    <td>&nbsp;</td>
+                                    <td>The International journal of analytical and experimental modal analysis</td>
+                                    <td>Volume XII, Issue VII, July, Page No:1936-1944, 2020</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in National Journals (Year: 2020-21)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Position of the Author</th>
+                                        <!-- <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Number of Citations</th> -->
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. Narendra B. Mustare</td>
+                                        <td>Rapid Diagnosis of Malaria using Images of Stained Blood Smear</td>
+                                        <td>1st</td>
+                                        <!-- <td></td>
+                                        <td></td> -->
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume-18, June, pp.88-93, 2020</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>A Smart Machine Vision based Inspection System</td>
+                                        <td>1st</td>
+                                        <!-- <td></td>
+                                        <td></td> -->
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume-18, June, pp.94-99,2020.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Ms. Y. Divya</td>
+                                        <td rowspan="2">Machine Vision based Color Recognition by Robotic Arm using
+                                            LabVIEW</td>
+                                        <td>1st</td>
+                                        <!-- <td></td>
+                                        <td></td> -->
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td rowspan="2">Volume-18, June, pp.100-104,2020</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Mr. C. Pramod Kum</td>
+                                        <td>2nd</td>
+                                        <!-- <td></td>
+                                        <td></td> -->
+                                        <td>CVR Journal of Science and Technology</td>
+                                    </tr>
+
+                                </table>
+                                <!-- <a name="2019"></a> -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in International Conference (Year: 2020-21)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Position of the Author</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <!-- <th>Number of Citations</th> -->
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>Design of high sensitive alcohol sensor with vehicle ignition disabling
+                                            system</td>
+                                        <td>1st</td>
+                                        <td>Web of Science, Scopus</td>
+                                        <!-- <td></td> -->
+                                        <td>AIP Conference Proceedings </td>
+                                        <td>pp. 030018-1 - 030018-4, October 2020</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. Narendra B. Mustare</td>
+                                        <td>Enhanced identification of Malaria parasites from Giemsa-stained thick
+                                            blood smear images</td>
+                                        <td>1st</td>
+                                        <!-- <td></td> -->
+                                        <td></td>
+                                        <td>International conference on ICRTEETIMP-2020 at Dayananda Engineering,
+                                            Bangalore</td>
+                                        <td>From 7th to 9th December 2020.</td>
+                                    </tr>
+                                </table>
+                                <!-- <a name="2019"></a> -->
+                            </div>
+                        </div>
+                        <a name="2020"></a>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in International Journals (Year: 2019-20)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>Acidic Control of a Chemical Plant Implementing Non-Linear Controllers</td>
+                                        <td>Scopus UGC CARE list</td>
+                                        <td>International Journal of Innovative Technology and Exploring Engineering
+                                            (IJITEE)</td>
+                                        <td>ISSN: 2278-3075, Volume-8 Issue-10, ,pp.54-58, August 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Santosh Kumar Sahoo</td>
+                                        <td>Designing of an Efficient Electronic module for Sensory Network used in
+                                            Smart City</td>
+                                        <td>Scopus. UGC Care List.</td>
+                                        <td>International Journal of Recent Technology and Engineering (IJRTE)</td>
+                                        <td>ISSN: 2277-3878, Volume-8 Issue-3, pp.1252-1254, September 2019.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>Generation of ‘16’ type of biomedical laser using a single photonic
+                                            structure: A new paradigm to operation in medical science</td>
+                                        <td>Science Citation Index Web of Science Scopus</td>
+                                        <td>International Journal for Light and Electron, Optics(Elsevier) </td>
+                                        <td>ISSN: 0030-4026 197 (2019) 163227</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>Artificial Intelligence Based Multi-Object Inspection System</td>
+                                        <td>Scopus</td>
+                                        <td>Advances in Intelligent Systems and Computing book series (AISC,)
+                                            Computational Intelligence in Data Mining</td>
+                                        <td>volume 990, pp.205-211,2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Dr. B. Saidulu<br>
+                                            Dr. Santhosh Kumar Sahoo
+                                        </td>
+                                        <td>Design and study of Ampliﬁer with Variations in Supply and Temperature</td>
+                                        <td>Scopus</td>
+                                        <td>Learning and Analytics in Intelligent Systems book series (LAIS, volume
+                                            5),Springer, Cham</td>
+                                        <td>volume 5, 30271-9, pp 112-121, 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Mr. Venkata Krishna Odugu</td>
+                                        <td>Implementation of Low Power and Memory Efficient 2D FIR Filter Architecture</td>
+                                        <td>Scopus<br> UGC CARE list</td>
+                                        <td>International Journal of Recent Technology and Engineering (IJRTE)</td>
+                                        <td>ISSN: 2277-3878, Volume-8, Issue-1, pp.927-935, May 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Mr. B. Satish</td>
+                                        <td>Design and Implementation of Energy Efficient
+                                            SAR Analog to Digital Converter</td>
+                                        <td>Scopus<br> UGC CARE list</td>
+                                        <td>International Journal of Recent Technology and Engineering (IJRTE)</td>
+                                        <td>ISSN: 2277-3878, Volume-8, Issue-1, , pp.974-977, May 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mr. Shyam Prasad Devulapalli</td>
+                                        <td>Eye-Blink Artifact Removal of EEG Signal Using EMD</td>
+                                        <td>Scopus<br> UGC CARE list</td>
+                                        <td>International Journal of Recent Technology and Engineering (IJRTE)</td>
+                                        <td>ISSN: 2277-3878, Volume-8, Issue-1, ,pp.441-444, May 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>D. Shyam Prasad</td>
+                                        <td>Defected Ground Structure Printed Antenna with Triangular Slot</td>
+                                        <td>Scopus<br> UGC CARE list</td>
+                                        <td>International Journal of Innovative Technology and Exploring Engineering
+                                            (IJITEE)</td>
+                                        <td>ISSN: 2278-3075, Volume-9 Issue-1, pp.- 4726 – 4729,
+                                            November 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>R. Prameela Devi</td>
+                                        <td>Rate Performance and Spectral Efficiency of Non-Orthogonal Multiple Access
+                                            for 5G Communication</td>
+                                        <td>Scopus<br> UGC CARE list</td>
+                                        <td>International Journal of Recent Technology and Engineering (IJRTE)</td>
+                                        <td>ISSN: 2277-3878, Volume-8 Issue-2, pp.3337-3341, July 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Mr. G. Venkateswarlu</td>
+                                        <td>GOT Assisted Smart Building Energy Manage ment System”, </td>
+                                        <td>Other</td>
+                                        <td>International Journal for Research in Applied Science & Engineering
+                                            Technology (IJRASET )</td>
+                                        <td>Volume 7, Issue 8, pp.422-430, August,2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Mr. P. Choudesh Varma </td>
+                                        <td>GOT Assisted Smart Building Energy Manage ment System”, </td>
+                                        <td>Other</td>
+                                        <td>International Journal for Research in Applied Science & Engineering
+                                            Technology (IJRASET )</td>
+                                        <td>Volume 7, Issue 8, pp.422-430, August,2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Mr. K. Uday</td>
+                                        <td>GOT Assisted Smart Building Energy Manage ment System”, </td>
+                                        <td>Other</td>
+                                        <td>International Journal for Research in Applied Science & Engineering
+                                            Technology (IJRASET )</td>
+                                        <td>Volume 7, Issue 8, pp.422-430, August,2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Y. Divya</td>
+                                        <td>Recent trends and modification in core-based design of embedded DSP
+                                            processor </td>
+                                        <td>Other</td>
+                                        <td>International Journal of New Innovations in Engineering and Technology</td>
+                                        <td>Volume 11 Issue 3,pp.-04-11, August 2019</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in National Journals (Year: 2019-20)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>LabVIEW based Level control of Coupled tank System</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR journal of Science and Technology</td>
+                                        <td>Vol.16, ISSN-2277-3916,pp.72-77, June 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>An Efficient Approach for Optimization of Nonlinearity response in Linear
+                                            Variable Differential Transformer</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR journal of Science and Technology</td>
+                                        <td>Vol.17, ISSN-2277-3916,pp.115-119, December 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Mr. O. Venkata Krishna</td>
+                                        <td>Design and Implementation of FIR Filter using
+                                            Low Power and High-Speed Multiplier and Adders</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR journal of Science and Technology</td>
+                                        <td>Vol.17, ISSN-2277-3916,pp.127-131, December 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Mr. P. Choudesh Varma<br> Mr. G. Venkateswarlu<br>Mr. K. Uday</td>
+                                        <td>Virtually Transcribed and Restrained Robotic System </td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR journal of Science and Technology</td>
+                                        <td>Vol.17, ISSN-2277-3916,pp.120-126, December 2019</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in International Conferences (Year: 2019-20)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>Design of high sensitive alcohol sensor with vehicle ignition disabling
+                                            system </td>
+                                        <td>International Conference on Multifunctional Materials (ICMM-2019)</td>
+                                        <td>Geethanjali College of Engineering and Technology, Hyderabad, India</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. B. Saidulu <br>Dr. Santosh Kumar Sahoo</td>
+                                        <td>Design and study of Ampliﬁer with Variations in Supply and Temperature</td>
+                                        <td>International Conference on Application of Robotics in Industry using
+                                            Advanced Mechanisms- Springer Conference</td>
+                                        <td>Springer, Cham</td>
+                                        <td>Print ISBN 978-3-030-30270-2 Online ISBN 978-3-030-30271-9, 2019</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Mr. D. Shyam Prasad</td>
+                                        <td> FLM Based Optimization Scheme for Ocular Artifacts Removal in EEG Signals</td>
+                                        <td>International Conference on Microelectronics Electromagnetics and
+                                            Telecommunication (ICMEET)</td>
+                                        <td>RAGHU Institute of Technology, Visakhapatnam, AP</td>
+                                        <td>2019</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <a name="2019"></a>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in International Journals Year (Year: 2018-19)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. Narendra <br> B. Mustare</td>
+                                        <td>Development and validation of auto-detection tool for malaria parasites
+                                        </td>
+                                        <td>Other</td>
+                                        <td>International Journal of Creative Research Thoughts (IJCRT), </td>
+                                        <td>pp.569-572, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>Metamaterial based photonic crystal fiber memory for optical computer</td>
+                                        <td>Scopus and SCI</td>
+                                        <td>International Journal for Light and Electron Optics (Elsevier), </td>
+                                        <td>393–396, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>Optimization of dynamic issues for efficient inspection through mvi system</td>
+                                        <td>UGC Approved</td>
+                                        <td>International Journal of Creative Research Thoughts (IJCRT) </td>
+                                        <td>6(1), ISSN: 2320-2882,941-945, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>An Artificial Intelligent Centred Object Inspection System Using Crucial
+                                            Images</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Rough Sets and Data Analysis (IJRSDA)</td>
+                                        <td> 5(1), pp. 44-57,2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>Simulation-Based Detection of Lyme Disease in Blood in Rhesus Macaques
+                                            Using Combined Volterra RLS-MTP Approach for Proper Antibiotic</td>
+                                        <td>Other</td>
+                                        <td>Progress in Advanced Computing and Intelligent Engineering. Springer Book
+                                            Chapter, Singapore</td>
+                                        <td>pp. 197-205,2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>An improved CMOS Voltage Bandgap Reference Circuit</td>
+                                        <td>Other </td>
+                                        <td>Artificial Intelligence and Evolutionary Computations in Engineering
+                                            Systems, Springer Nature (Book Chapter) </td>
+                                        <td>pp.621-629,2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Mr. O. Venkata Krishna</td>
+                                        <td>Design and Implementation of Block Based Transpose Form FIR Filter</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Computer Application</td>
+                                        <td>ISSN: 2250-1797, Issue 8, Volume 1, 72-84, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mr. G. Venkateswarlu</td>
+                                        <td>SCADA Based Centralized Building Energy Management and Automation System</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Recent Trends in Engineering & Research, (IJRTER)
+                                        </td>
+                                        <td>Volume 4, Jan 2018. ISSN 2455–1457, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Ms. R. Prameela Devi</td>
+                                        <td>A study on Non-Orthogonal Multiple Access (NOMA) for 5G</td>
+                                        <td>Other</td>
+                                        <td>International Journal of computational Engineering Research (IJCER)</td>
+                                        <td>Vol.08, pp.84-89, 2018</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- <a name="2019"></a> -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in National Journals (Year: 2018-19)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>Modeling of Potassium Chloride Sensor with Two-Dimensional Optical
+                                            Nanostructure</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume 14, ISSN 2277 – 3916 ,49-51, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>Analysis of Water Content in Fire Resistant Hydraulic Fluids used in Coke
+                                            Furnace Door Opening through Optical Waveguide</td>
+                                        <td>Other</td>
+                                        <td>Journal of Recent Trends in Sensor Research & Technology (RTSRT) </td>
+                                        <td>ISSN: 2393-8765 (Online) ,5(1), STM Journals, 14-18, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Mr. B. Satish</td>
+                                        <td>Implementation of Low Power Sigma Delta ADC for broadband Communications</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume-15, pp.85-89, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Mr. O. Venkata Krishna</td>
+                                        <td>Design and Implementation of FIR Filter using Low power and High -speed
+                                            Multiplier and Adders</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume-15, pp.80-84, 2018</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- <a name="2019"></a> -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in Books/ Book Chapter (Year: 2018-19)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>A Dynamic Bottle Inspection Structure</td>
+                                        <td>Scopus</td>
+                                        <td>Computational Intelligence in Data Mining. Springer Book Chapter, </td>
+                                        <td>873-884, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>Power and Area Efficient Op-Amp for Biomedical Applications Using TFET 20nm</td>
+                                        <td>Scopus</td>
+                                        <td>Microelectronics, Electronics and Telecommunications (LNEE, Springer
+                                            series)</td>
+                                        <td>Vol. 471pp. 207-215, 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Mr. Shyam Prasad Devulapalli</td>
+                                        <td>Novel Noise Reduction Scheme of Brain Waves</td>
+                                        <td>Scopus</td>
+                                        <td>Lecture Notes on Data Engineering and Communications Technologies, Springer</td>
+                                        <td>pp.266-272, 2018</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- <a name="2019"></a> -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in International Conferences (Year: 2018-19)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>Experimental analysis of a novel control scheme developed for Single Fluid
+                                            Heat Transfer System</td>
+                                        <td>IEEE Conference</td>
+                                        <td>IEEE Conference on Systems, Process and Control (ICSPC2018)</td>
+                                        <td>2018</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <a name="2018"></a>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in International Journals (Year: 2017-18)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. Narendra B. Mustare</td>
+                                        <td>Development of biological feedback Model for the analysis of Physiological
+                                            Homoeostasis</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Advanced Research in Computer Engineering &
+                                            Technology (IJARCET) </td>
+                                        <td>Volume 6, Issue 2, ISSN: 2278 – 1323, 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. Narendra B. Mustare</td>
+                                        <td>Efficient Technique for Cancer Prediction Using ANN Classification Based on
+                                            pH Parameter</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Science and Research (IJSR)</td>
+                                        <td>pp.758-764, 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Dr. Santosh Kumar Sahoo</td>
+                                        <td>A Novel Approach for Tracking Sperm from Human Semen Particles to Avoid
+                                            Infertility</td>
+                                        <td>Other</td>
+                                        <td>Computational Intelligence in Data Mining. Springer Book Chapter </td>
+                                        <td>pp.415-420, 2017.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>Power and Area efficient OpAmp for biomedical Application using TFET 20nm</td>
+                                        <td>Other</td>
+                                        <td>Microelectronic and Telecommunications (LNEE, Springer Series)</td>
+                                        <td>Vol. 471, pp.207-215,2018.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>Design of Low Power Amplifier for Neural Recording Applications using
+                                            Inversion Coefficient Methodology</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Control Theory and Applications</td>
+                                        <td>Vol. 10(6), pp. 719-727, 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>Energy efficient and low noise OTA with improved NEF for Neural Recording
+                                            Applications</td>
+                                        <td>Scopus</td>
+                                        <td>International Journal of Biomedical engineering & Technology</td>
+                                        <td>2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>An Improved CMOS BGR circuit </td>
+                                        <td>SCI & Scopus</td>
+                                        <td>Advances in Intelligent Systems and Computing (Springer)</td>
+                                        <td>pp.621-629,2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>Design of channel length modulation free MOS transistor</td>
+                                        <td>Scopus</td>
+                                        <td>International Journal of Pharmacy & Technology</td>
+                                        <td>Vol. 9(1), pp. 28195-28200, 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Ms. R. Prameela Devi</td>
+                                        <td>Performance Evaluation of Digital Modulation Schemes BPSK, QPSK & QAM</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Engineering and Techniques</td>
+                                        <td>Volume 3 Issue 2, ISSN: 2395-1303, 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Ms. R. Prameela Devi</td>
+                                        <td>Automated Fuel Station Using Biometrics</td>
+                                        <td>Other</td>
+                                        <td>Imperial Journal of Interdisciplinary Research (IJIR) </td>
+                                        <td>Vol-3, Issue-4, ISSN: 2454-1362., 2017</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- <a name="2018"></a> -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in National Journals (Year: 2017-18)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>Lab VIEW based Greenhouse Automation</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR journal of Science & Technology, Vol.13</td>
+                                        <td>Vol.13,pp.79-82, 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Mr. O. Venkata Krishna</td>
+                                        <td>Design and Implementation of low power Finite Impulse Response Filters</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume-12, ,PP.117-121, 2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Ms. R. Prameela Devi</td>
+                                        <td>BER Analysis of Digital Modulation Schemes using LabVIEW</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume 13, ISSN: 2277 – 3916, pp.41-45,2017</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- <a name="2018"></a> -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in International Conferences (Year: 2017-18)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. Narendra B. Mustare</td>
+                                        <td>Development of Automatic identification and classification system for
+                                            malaria parasite in thin blood sphere based on morphological techniques</td>
+                                        <td>IEEE Conference</td>
+                                        <td>IEEE Conference held at SAVELLORE INSTITUTE OF TECHNOLOGYHA Engg. College,
+                                            Chennai</td>
+                                        <td>2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>PID and Fuzzy Control of pH Neutralization and Split Range Prototype Plants
+                                            Using LabVIEW</td>
+                                        <td>IEEE Conference</td>
+                                        <td>Proceedings of IEEE International Conference on Innovations in Electrical,
+                                            Electronics, Instrumentation and Media Technology ICIEEIMT 17</td>
+                                        <td>2017</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <a name="2017"></a>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in International Journals (Year: 2016-17)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. Narendra B. Mustare</td>
+                                        <td>Computerized Analysis of Blood Cell Images for the Accurate Diagnosis of
+                                            Malaria</td>
+                                        <td>Other</td>
+                                        <td>International Journal on Emerging Technologies</td>
+                                        <td>pp.97-100, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>Sliding Mode Control (SMC) and Dynamic Sliding Mode Control (DSMC) of Split
+                                            range plant and pH Neutralization plant using LabVIEW</td>
+                                        <td>Other</td>
+                                        <td>i-manager’s Journal on Instrumentation & Control Engineering, </td>
+                                        <td>Vol. 4, No. 3, pp.13-20, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>Low Noise Low Power CMOS Telescopic OTA for Bio-medical Applications</td>
+                                        <td>Scopus, Web of Science & ESCI</td>
+                                        <td> MDPI, Computers</td>
+                                        <td>2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Mr. O. Venkata Krishna</td>
+                                        <td>Efficient VLSI architectures for FIR Filters</td>
+                                        <td>Other</td>
+                                        <td> IOSR Journal of VLSI and Signal Processing (IOSR-JVSP)</td>
+                                        <td>Volume 6, Issue 6, Ver. III, PP 37-44,2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Mr. Shyam Prasad Devulapalli</td>
+                                        <td>Location Awareness of Public Transportation by using GPS and GPRS
+                                            Technologies</td>
+                                        <td>Other</td>
+                                        <td>International journal of professional engineering studies </td>
+                                        <td>Volume VII, Issue 2, pp.159-163, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Dr. B. Saidulu</td>
+                                        <td>Effective in Latency and Complexity with Multiple Butterfly-Formed Weight
+                                            Accumulators</td>
+                                        <td>Other</td>
+                                        <td>International Advanced Research Journal in Science, Engineering and
+                                            Technology</td>
+                                        <td>Vol. 3, Issue 8, pp. 81-84, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Ms. V. Sreelatha Reddy</td>
+                                        <td>Automation in the Delegation of Human Control Function in Proximity Sensor
+                                            by Using PLC</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Research in Electronics & Communication
+                                            Engineering, </td>
+                                        <td>Vol–4, Issue-1, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Ms. V. Sreelatha Reddy</td>
+                                        <td>Advanced Automation System Using PLC</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Research in Electronics & Communication
+                                            Engineering </td>
+                                        <td>Vol–4, Issue-1, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Mr. K. Uday</td>
+                                        <td>An Efficient Implementation of the LMS Adaptive Algorithm</td>
+                                        <td>Other</td>
+                                        <td>International Journal of Science & Research</td>
+                                        <td>Vol-5(6), pp.1927-1930, 2016</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- <a name="2017"></a> -->
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Publications in National Journals (Year: 2016-17)</h4>
+                                <table class="table text-white table-bordered table-stripped">
+                                    <tr class="thead-dark">
+                                        <th>Sl. No</th>
+                                        <th>Name of the Faculty</th>
+                                        <th>Title of Publication</th>
+                                        <th>Refereed &amp; Indexed by SCOPUS/SCI/Any Other</th>
+                                        <th>Name of Journal/Publishers</th>
+                                        <th>ISSN/ISBN/Vol.no/ISSN No./ Page Nos.</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dr. S. Harivardhagini</td>
+                                        <td>LabVIEW based Sliding Mode Control of a pH Neutralization System</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology, </td>
+                                        <td>Vol.10, Pg No.70-73, ISSN-2277-3916,pp.70-73, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Mr. O. Venkata Krishna</td>
+                                        <td>Automatic Cheque clearance system using MATLAB</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume 10, ISSN 2277 – 3916,pp.54-58, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Mr. O. Venkata Krishna</td>
+                                        <td>Efficient Design Methodologies for Optimizing the leakage power in FPGAs</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume 11, pp.96-100,December 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Mr. G. Venkateswarlu</td>
+                                        <td>SCADA Based Automatic Direct Reduction of Iron Process Using Allen-Bradley
+                                            Programmable Logic Controllers</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology, </td>
+                                        <td>Volume 10, June 2016. ISSN 2277 – 3916,pp.74-81, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Mr. G. Venkateswarlu</td>
+                                        <td>Analysis of Industrial Parameters for Chemical Combustion Process in Rotary
+                                            KILN using LabVIEW with Wireless Technology</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology, </td>
+                                        <td>Volume 10, ISSN 2277 – 3916,pp.101-105, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Mr. G. Venkateswarlu</td>
+                                        <td>Multi-Channel UART Controller with FIFO and FPGA</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology, </td>
+                                        <td>Volume 10, pp.82-892016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Ms. R. Prameela Devi</td>
+                                        <td>Implementation of Orthogonal Frequency Division Multiplexing for SDR using
+                                            MATLAB</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science and Technology</td>
+                                        <td>Volume 11, ISSN: 2277 – 3916,pp.91-95, 2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Mr. K. Uday</td>
+                                        <td>Analysis of Industrial Parameters for chemical combustion process in Rotary
+                                            KILN using Lab VIEW with wireless Technology</td>
+                                        <td>Other: DRJI, SIS, Google Scholar</td>
+                                        <td>CVR Journal of Science & Technology, </td>
+                                        <td>Vol-1, pp.101-105, 2016</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="site-footer">
+      <div class="container">
+
+        <h4 style="margin-top:0px;">CVR College of Engineering</h4>
+        <p>EIE <i>(ELECTRONICS AND INSTRUMENTATION ENGINEERING)</i></p>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright © 2022 All Rights Reserved by
+              <a href="https://cvr.ac.in/home4/index.php">CVR College of Engineering</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100063684410759"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/cvrcoenews"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="https://www.instagram.com/aryan.satya_/"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/school/cvrcoe/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Adding a fixed menu to the left -->
+    <div class="fixedmenu" data-aos="flip-down">
+        <ul>
+            <!-- <li><a href="#">2021-2022</a></li> -->
+            <li><a href="#2021">2020-2021</a></li>
+            <li><a href="#2020">2019-2020</a></li>
+            <li><a href="#2019">2018-2019</a></li>
+            <li><a href="#2018">2017-2018</a></li>
+            <li><a href="#2017">2016-2017</a></li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+
+            duration: 1000,
+
+        });
+    </script>
+</body>
+
+</html>

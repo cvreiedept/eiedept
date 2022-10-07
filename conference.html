@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Infrastructure</title>
+    <!-- <link rel="stylesheet" href="css/labdisp.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesConference.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Poppins:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0b31354659.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+    <header>
+        <div class="container-fluid">
+            <div class="row bg-info">
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="images/logo.png">
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-center text-white h1bg">
+                        <span class="eieFont">Electronics and Instrumentation Engineering</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <navigation>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-gradient sticky-top">
+        <a class="navbar-brand text-center" style="margin-right: 35px" href="index.html">EIE DEPT
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About EIE
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="visionmission.html">Mission and Vision</a>
+                <a class="dropdown-item" href="departmentHighlights.html">Department Highlights</a>
+                <a class="dropdown-item" href="workshops.html">Workshops</a>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                People
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="faculty.html">Faculty</a>
+                <a class="dropdown-item" href="supportingStaff.html">Supporting Staff</a>
+                <!-- <a class="dropdown-item" href="#">Profiles and Achievements</a> -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Academics
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="academicCurriculam.html">Academic Curriculum</a>
+                <a class="dropdown-item" href="academicProgram.html">Academic Program</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Research
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="publication.html">Publications</a>
+                <a class="dropdown-item" href="patents.html">Patents</a>
+                <a class="dropdown-item" href="research.html">Research/Consultancy/Sponsored Projects</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Facilities
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="infraFacilities.html">Infrastructural and Lab Facilities</a>
+                <!-- <a class="dropdown-item" href="laboratories.html">Lab Facilities</a> -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Library
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- <a class="dropdown-item" href="#">Technolites</a>
+                                  <a class="dropdown-item" href="#">Invited Talks</a>
+                                  <a class="dropdown-item" href="#">IETE</a> -->
+                <a class="dropdown-item" href="library.html">Dept Library & Seminar Hall</a>
+                <a class="dropdown-item" href="achievements.html">Awards and Achievements</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="conference.html">Conference <span class="sr-only"></span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </navigation>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <h1><b>I</b>nternational <b>C</b>onference on <b>I</b>nstrumentation <b>S</b>ignal <b>P</b>rocessing and <b>C</b>omputing <b>E</b>ngineering
+   (ICISPACE-2023)</h1>
+   <h5>[11th & 12th August, 2023]</h5>
+   <h5>
+  (Organized by CVR College of Engineering, Hyderabad)
+  </h5>
+
+    <div class="about">
+      <h3>About the Conference</h3>
+      <p>International Conference on Instrumentation Signal Processing and Computing Engineering (ICISPACE-2023) will provide common platform for presentation of original research findings, exchange of ideas and dissemination of innovative, practical
+        development experiences in different aspects and fields of Instrumentation, signal Processing and Computing. The conference aims at bringing together the researchers, scientists, engineers, industrial professionals and scholar students in their
+        domain of interest. Also, it concentrates on both theory and practices from around the world in all the areas of related disciplines of Instrumentation and efficient Computing. This conference aims to provide rapid dissemination of important
+        results in instrumentation, system design, advance computing technologies, a fusion of research in fuzzy logic, evolutionary computations, neural science and neural network systems and chaos theory and chaotic systems, swarm-based algorithms
+        etc. It promotes novel and high-quality research findings, innovative solutions to challenging Engineering problems; the conference seeks to continuously advance the state-of-the-art in recent developments as well as the other promising areas
+        of advance computing. Original and unpublished research papers from all disciplines including theory, practice, experimentation, and review work highlighting specific research domains for presentation in the technical sessions of the conference
+        will be invited from researchers, academicians and professionals throughout the globe. </p>
+    </div>
+
+    <div class="call">
+      <h3>Call for Paper</h3>
+      <p>Original High-quality papers in all the following topic of interest (but are not limited) are solicited. The papers exploring new directions will receive especially careful and supportive reviews.
+      </p>
+    </div>
+
+    <div class="trackone">
+      <h2>Track-1: Instrumentation Innovations and Algorithms</h2>
+
+      <table class="center">
+
+        <tr>
+          <td>Aerospace Instrumentation</td>
+          <td>NEMS</td>
+        </tr>
+        <tr>
+          <td>Automation, Biomechanics</td>
+          <td>Optical Instrumentation</td>
+        </tr>
+        <tr>
+          <td>Biomedical Instrumentation</td>
+          <td>Process Control</td>
+        </tr>
+        <tr>
+          <td>System Modeling</td>
+          <td>Robotics</td>
+        </tr>
+        <tr>
+          <td>Mechatronics</td>
+          <td>Safety monitoring</td>
+        </tr>
+        <tr>
+          <td>MEMS</td>
+          <td>Virtual Instrumentation</td>
+        </tr>
+        <tr>
+          <td>Multi Sensor Data Fusion</td>
+          <td>Fuzzy Logic, Bayesian methods</td>
+        </tr>
+        <tr>
+          <td>Genetic Algorithms </td>
+          <td>Neural Networks</td>
+        </tr>
+        <tr>
+          <td>Evolutionary Strategies</td>
+          <td>Multi-Agent Systems</td>
+        </tr>
+        <tr>
+          <td>Hybrid and Distributed Algorithms</td>
+          <td>Artificial Life, Self-organization</td>
+        </tr>
+        <tr>
+          <td>Probabilistic Metaheuristic</td>
+          <td>Mathematical Optimization</td>
+        </tr>
+        <tr>
+          <td>Swarm Intelligence</td>
+          <td>Uncertainty analysis</td>
+        </tr>
+        <tr>
+          <td>Artificial Immune Systems</td>
+          <td>Support vector machines</td>
+        </tr>
+        <tr>
+          <td>HPC and Computational Intelligence</td>
+          <td>Machine learning</td>
+        </tr>
+        <tr>
+          <td>Chemical Evolution</td>
+          <td>Ambient intelligence</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="tracktwo">
+      <h2>Track-2: Applications of Signal Processing and Computing</h2>
+
+      <table class="center">
+
+        <tr>
+          <td>Digital Signal Processing</td>
+          <td>Biometry</td>
+        </tr>
+        <tr>
+          <td>Image Processing</td>
+          <td>Remote sensing & GIS</td>
+        </tr>
+        <tr>
+          <td>Optimization Techniques</td>
+          <td>Robotics and Automation</td>
+        </tr>
+        <tr>
+          <td>Cryptography</td>
+          <td>Medical Informatics</td>
+        </tr>
+        <tr>
+          <td>Information retrieval</td>
+          <td>E-commerce</td>
+        </tr>
+        <tr>
+          <td>Data Mining</td>
+          <td>Signal Processing</td>
+        </tr>
+        <tr>
+          <td>Web Mining</td>
+          <td>Power Control</td>
+        </tr>
+        <tr>
+          <td>Image Processing</td>
+          <td>Control systems & Automation</td>
+        </tr>
+        <tr>
+          <td>Computer Vision</td>
+          <td>Motion Planning</td>
+        </tr>
+        <tr>
+          <td>Bio-informatics</td>
+          <td>Decision-making</td>
+        </tr>
+        <tr>
+          <td>Information security</td>
+          <td>Business Analytics</td>
+        </tr>
+        <tr>
+          <td>Network security</td>
+          <td>Process Industry</td>
+        </tr>
+        <tr>
+          <td>Steganography</td>
+          <td>Power Drive/Control</td>
+        </tr>
+        <tr>
+          <td>Computational Fluid Dynamics</td>
+          <td>Robotics</td>
+        </tr>
+        <tr>
+          <td>Transportation Engineering</td>
+          <td>Energy management</td>
+        </tr>
+        <tr>
+          <td>Automation in manufacturing</td>
+          <td>Safety Management</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="trackthree">
+      <h2>Track-3: Advance Computing</h2>
+
+      <table class="center">
+
+        <tr>
+          <td>Chaos, Complexity, Fractals</td>
+          <td>Immunological Computing</td>
+        </tr>
+        <tr>
+          <td>Morphic Computing</td>
+          <td>Nature inspired computing techniques</td>
+        </tr>
+        <tr>
+          <td>Rough Sets Analysis</td>
+          <td>Artificial Life, Self-organization</td>
+        </tr>
+        <tr>
+          <td>Hybrid Computing</td>
+          <td>Deep Learning</td>
+        </tr>
+        <tr>
+          <td>Higher Order Neural Computing</td>
+          <td>Stochastic Optimization</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="imp">
+      <h3>Important Dates</h3>
+      <table>
+        <tr>
+          <td>Paper Submission Starts:</td>
+          <td>1st November 2022</td>
+        </tr>
+        <tr>
+          <td>Last date for Submission of full paper:</td>
+          <td>1st February, 2023</td>
+        </tr>
+        <tr>
+          <td>Full-paper acceptance/revision notification:</td>
+          <td>20th May, 2023</td>
+        </tr>
+        <tr>
+          <td>Revised paper submission (if any):</td>
+          <td>15th June, 2023</td>
+        </tr>
+        <tr>
+          <td>Registration starts:</td>
+          <td>Within 1 week from revision/acceptance notification</td>
+        </tr>
+        <tr>
+          <td>Registration ends:</td>
+          <td>15th July, 2023</td>
+        </tr>
+        <tr>
+          <td>Conference dates:</td>
+          <td>August 11-12, 2023</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="sub">
+      <h3>Submission Details</h3>
+      <p>The Original Unpublished Research Papers, Articles & Working papers on the topics related to the theme are invited for presentation/publication in the conference proceedings. Full papers in strict Springer AISC format within 8 pages must be
+        submitted online at <a href="http://cvr.ac.in/ICISPACE/">(ICISPACE)</a> through easy chair paper submission system <a href="https://easychair.org/conferences/?conf=">ICISPACE 2023</a>. The conference proceedings will be published in reputed journal [Indexed by: ISI
+        Proceedings, DBLP. Ulrich's, EI-Compendex, SCOPUS, Zentralblatt Math, Meta Press, Springer link]. Some of the selected high quality papers presented in ICISPACE-2023 with extended versions will be published in some reputed International Peer
+        Reviewed Journals (In process).
+      </p>
+    </div>
+
+    <div class="reg">
+      <h3>Registration</h3>
+      <p>To ensure publication of a paper in the Proceedings, at least one author should register by submitting a normal registration fee within deadline as indicated below. The over-length charge (more than 8 pages) is Rs.800 (for Indian authors) or
+        $15 (for foreign authors) per extra page for a maximum of two extra pages. For further details about the registration process please go through the conference website www.cvr icispace2023.org</p>
+      <table>
+        <tr>
+          <td>Research Scholar (JRF & SRF)/ Students</td>
+          <td>INR 6000.00</td>
+        </tr>
+        <tr>
+          <td>Academicians</td>
+          <td>INR 7000.00</td>
+        </tr>
+        <tr>
+          <td>Industry Experts</td>
+          <td>INR 10000.00</td>
+        </tr>
+        <tr>
+          <td>Co-author/Listeners</td>
+          <td>INR 2000.00</td>
+        </tr>
+        <tr>
+          <td>Foreign Participants</td>
+          <td>USD 350 or EURO 200</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th><p><b>Note:</b> The registration fee includes participation in the conference, publication in proceedings, Breakfast, Lunch for 2 days, Conference kit, and Participation certificate.
+          </th>
+        </tr>
+      </table>
+      </p>
+    </div>
+
+    <div class="confcom">
+      <h2>Conference Committee</h2>
+      <h3>Honorary General Chair</h3>
+      <h4>Prof. (Dr.) Ajith Abraham</h4>
+
+      <p>Director, Machine Intelligence Research Lab, USA & Professor, Technical University of Ostrava, Czech Republic</p>
+
+      <h4>Prof. (Dr.) V. Ganesan</h4>
+      <p>Indian Institute of Technology, Madras, India</p>
+
+      <h3>General Chair</h3>
+      <h4>Prof. (Dr.) V. E. Balas, Senior Member IEEE </h4>
+      <p>Aurel Vlaicu” University of Arad, Romania</p>
+      <h4>Prof. (Dr.) J. M. Mallikarjuna
+      </h4>
+      <p>Indian Institute of Technology, Madras, India
+      </p>
+
+      <h3>Honorary Advisory Chair</h3>
+      <h4>Prof. (Dr.) Sankar Kumar Pal</h4>
+      <h4>Padma Shri Awardee in Science and Engineering</h4>
+      <p>Distinguished Scientist and Former Director, ISI Kolkata</p>
+      <p>J. C. Bose National Fellow, Raja Ramanna Fellow</p>
+
+      <h3>Program Chairs</h3>
+      <h4>Dr. S. Harivardhagini</h4>
+      <p>HoD EIE, CVR College of Engineering</p>
+      <h4>Prof. (Dr.) Adel M. Alimi</h4>
+      <p>Professor, REGIM-Lab., ENIS, University o Sfax, Tunisia</p>
+      <h4>Dr. Asit Das</h4>
+      <p>Indian Institute of Engineering Science and Technology (IIEST), Shibpur, Kolkata, India</p>
+      <h4>Dr. H. S. Behera</h4>
+      <p>Veer Surendra Sai University of Technology, Burla, Odisha, India</p>
+
+      <h3>Chief Patron</h3>
+      <h4>Dr. Raghava Cherabuddi</h4>
+      <p>President & Chairman, CVR College of Engineering</p>
+
+      <h3>Patrons</h3>
+      <h4>Dr. Rama Sastri </h4>
+      <p>Director, CVR College of Engineering </p>
+      <h4>Dr. Nayanathara K Sattiraju</h4>
+      <p>Principal, CVR College of Engineering</p>
+      <h4>Dr. N.V. Rao</h4>
+      <p>Dean academics, CVR College of Engineering</p>
+      <h4>Dr. K. Lal Kishore</h4>
+      <p>Dean Research, CVR College of Engineering</p>
+
+      <h3>Convenor (s)</h3>
+      <h4>Dr. Narendra B. Mustare</h4>
+      <p>Professor, CVR College of Engineering, Hyderabad, India.</p>
+      <h4>Dr. Santosh Kumar Sahoo</h4>
+      <p>Associate Professor, CVR College of Engineering, Hyderabad, India.</p>
+
+    </div>
+
+    <div class="interadv">
+      <h3>International Advisory Committee</h3>
+      <table>
+        <tr>
+          <td>Dr. Ramesh C. Bansal</td>
+          <td>University of Pretoria, South Africa</td>
+        </tr>
+          <tr>
+            <td>Dr. Ramazan Bayindir</td>
+            <td>Gazi University, Turkey</td>
+          </tr>
+          <tr>
+            <td>Dr. Madan M. Gupta</td>
+            <td>University of Saskatchewan, Canada</td>
+          </tr>
+          <tr>
+            <td>Dr. Mohan Lal Kolhe</td>
+            <td>University of Agder, Norway</td>
+          </tr>
+          <tr>
+            <td>Dr. Zhao Xu</td>
+            <td>Hong Kong Polytechnic University, Hong Kong</td>
+          </tr>
+          <tr>
+            <td>Dr. Ahmad Taher Azar</td>
+            <td>Faculty of Computers and Information, Benha University, Egypt</td>
+          </tr>
+          <tr>
+            <td>Dr. B. L. Deekshatulu</td>
+            <td>IISc, Bangalore, India</td>
+          </tr>
+          <tr>
+            <td>Dr. A. Sreedharan</td>
+            <td>IISc, Bangalore, India</td>
+          </tr>
+          <tr>
+            <td>Dr. Chi-Chang Chang</td>
+            <td>Chung-Shan Medical University</td>
+          </tr>
+          <tr>
+            <td>Dr. N. P. Padhy</td>
+            <td>IIT, Roorkee, India</td>
+          </tr>
+          <tr>
+            <td>Dr. S. K. Panada</td>
+            <td>National University of Singapore, Singapore</td>
+          </tr>
+          <tr>
+            <td>Dr. Kenji Suzuki</td>
+            <td>University of Chicago</td>
+          </tr>
+          <tr>
+            <td>Dr. P. Mohapatra</td>
+            <td>University of California</td>
+          </tr>
+          <tr>
+            <td>Dr. M. S. Obaidat</td>
+            <td>Monmouth University, USA</td>
+          </tr>
+          <tr>
+            <td>Dr. R. Govinda Rajulu</td>
+            <td>IIIT, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. Sukumar Mishra</td>
+            <td>IIT, Delhi</td>
+          </tr>
+          <tr>
+            <td>Dr. A.K. Pradhan</td>
+            <td>IIT, Kharagpur</td>
+          </tr>
+          <tr>
+            <td>Dr. B. K. Panigrahi</td>
+            <td>IIT, Delhi</td>
+          </tr>
+          <tr>
+            <td>Dr. Dinesh Thakur Singh</td>
+            <td>DIET, Pune</td>
+          </tr>
+          <tr>
+            <td>Dr. M. S. Prasad Babu</td>
+            <td>AU, Visakhapatanam</td>
+          </tr>
+          <tr>
+            <td>Er. Rosa Bolanos</td>
+            <td>IEE, Quito</td>
+          </tr>
+          <tr>
+            <td>Dr. Ruven</td>
+            <td>EPN, Venezuala</td>
+          </tr>
+          <tr>
+            <td>Dr. C. Chandra Sekhar</td>
+            <td>IIT, Madras</td>
+          </tr>
+          <tr>
+            <td>Dr. M. Narasimha Murty</td>
+            <td>IISc, Bangalore</td>
+          </tr>
+          <tr>
+            <td>Dr. M. Manzoor Hussain</td>
+            <td>JNTUH, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. G.Ranga Janardhana</td>
+            <td>JNTUH, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. V.V.S.S. Srikanth</td>
+            <td>HCU, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. T. Narasinga Rao</td>
+            <td>ARCI, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. G. Appa Rao</td>
+            <td>IIT, Madras</td>
+          </tr>
+          <tr>
+            <td>Dr. K. V. L. Subramaniam</td>
+            <td>IIT, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. M. Viswanadham</td>
+            <td>JNTUH, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. G P Raja Sekhar</td>
+            <td>IIT, Kharagpur</td>
+          </tr>
+          <tr>
+            <td>Dr. S.K Nimbhorkar</td>
+            <td>Dr. Babasahab Ambedkar Marathawada University, Aurangabad</td>
+          </tr>
+          <tr>
+            <td>Dr. Chen Yuqun</td>
+            <td>South China Normal University, China</td>
+          </tr>
+            <tr>
+              <td>Dr. V. Uma Maheswara Rao</td>
+              <td>AU, Visakhapatanam</td>
+            </tr>
+            <tr>
+              <td>Dr. Aqeel ur-Rehman</td>
+              <td>Hamdard University</td>
+            </tr>
+            <tr>
+              <td>Dr. Israr Qureshi</td>
+              <td>IE Business School, Hong Kong</td>
+            </tr>
+            <tr>
+              <td>Dr. Bindu Chawla</td>
+              <td>Graduate School of Education, Greater New York</td>
+            </tr>
+            <tr>
+              <td>Dr. P. Bheema Rao</td>
+              <td>San Diego, California</td>
+            </tr>
+      </table>
+    </div>
+
+    <div class="intertech">
+      <h3>International Technical Committee Members</h3>
+      <table>
+        <tr>
+          <td>Dr. Alfanso Zozaya</td>
+          <td>EPN, Quito</td>
+        </tr>
+          <tr>
+            <td>Dr. Li Wenzheng</td>
+            <td>Beijing Institute of Technology</td>
+          </tr>
+          <tr>
+            <td>Er. Javier</td>
+            <td>IEE, Quito</td>
+          </tr>
+          <tr>
+            <td>Dr. D.V.L.N. Somayajulu</td>
+            <td>NIT, Warangal</td>
+          </tr>
+          <tr>
+            <td>Dr. Yepez</td>
+            <td>IEE, Quito</td>
+          </tr>
+          <tr>
+            <td>Dr. Gwendolyn Boyd</td>
+            <td>Alcorn State University, Lorman, Mississippi</td>
+          </tr>
+          <tr>
+            <td>Dr. Lina Girdauskiene</td>
+            <td>COMMEDIA, Lithuania</td>
+          </tr>
+          <tr>
+            <td>Dr. R.B.V. Subramanyan</td>
+            <td>NIT, Warangal</td>
+          </tr>
+          <tr>
+            <td>Dr. B.Prabhakar Rao</td>
+            <td>JNTUK, Kakinada</td>
+          </tr>
+          <tr>
+            <td>Dr. P.S.Avadhani</td>
+            <td>AU, Visakhapatanam</td>
+          </tr>
+          <tr>
+            <td>Dr. N. V. S. Narasimhasarma</td>
+            <td>NIT, Warangal</td>
+          </tr>
+          <tr>
+            <td>Dr. Sidhartha Panda</td>
+            <td>VSSUT, Burla</td>
+          </tr>
+          <tr>
+            <td>Dr. Rabindra Kumar Sahu</td>
+            <td>VSSUT, Burla</td>
+          </tr>
+          <tr>
+            <td>Dr. N.P. Patidar</td>
+            <td>NIT, Bhopal</td>
+          </tr>
+          <tr>
+            <td>Dr. Girish Parmar</td>
+            <td>Rajasthan Technical University, Kota, Rajasthan </td>
+          </tr>
+          <tr>
+            <td>Dr. Nidul Sinha</td>
+            <td>NIT, Silchar</td>
+          </tr>
+          <tr>
+            <td>Dr. S. Siva Nagaraju</td>
+            <td>JNTUK, Kakinada</td>
+          </tr>
+          <tr>
+            <td>Dr. R. Srinivasa Rao</td>
+            <td>JNTUK, Kakinada</td>
+          </tr>
+          <tr>
+            <td>Dr. P.Malli karjuna Rao</td>
+            <td>AU, Visakhapatanam</td>
+          </tr>
+          <tr>
+            <td>Dr. K. Rama Sudha</td>
+            <td>AU, Visakhapatanam</td>
+          </tr>
+          <tr>
+            <td>Dr. N. Prema Kumar</td>
+            <td>AU, Visakhapatanam</td>
+          </tr>
+          <tr>
+            <td>Dr. Alok Kanti Deb</td>
+            <td>IIT, Kharagpur</td>
+          </tr>
+          <tr>
+            <td>Dr. R.Rajeswara Rao</td>
+            <td>JNTUV, Vizianagaram</td>
+          </tr>
+          <tr>
+            <td>Dr. R.Vijayasanthi</td>
+            <td>AU, Visakhapatanam</td>
+          </tr>
+          <tr>
+            <td>Mr. Baidyanath Bag</td>
+            <td>NIT, Kurukshetra</td>
+          </tr>
+          <tr>
+            <td>Dr. A.S.N. Chakravarthy</td>
+            <td>JNTUV, Vizianagaram</td>
+          </tr>
+          <tr>
+            <td>Dr. S. S. Dash</td>
+            <td>SRM University, Chennai</td>
+          </tr>
+          <tr>
+            <td>Dr. Swathi Sharma</td>
+            <td>Jodhpur National University, Rajasthan</td>
+          </tr>
+          <tr>
+            <td>Dr. G. Sreenivasan</td>
+            <td>SRIT, Anathapur</td>
+          </tr>
+          <tr>
+            <td>Dr. K Chandra Sekaran</td>
+            <td>NITK, Surathkal</td>
+          </tr>
+          <tr>
+            <td>Dr. B. Ramadoss</td>
+            <td>NIT, Tiruchirapalli</td>
+          </tr>
+          <tr>
+            <td>Dr. M. Indira Rani</td>
+            <td>JNTUH, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. P. Prasanna</td>
+            <td>JNTUH, Hyderabad</td>
+          </tr>
+          <tr>
+            <td>Dr. K. V. Krishna</td>
+            <td>IIT, Guwahati</td>
+          </tr>
+            <tr>
+              <td>Dr. D.Linga Raju</td>
+              <td>JNTUH, Hyderabad</td>
+            </tr>
+            <tr>
+              <td>Dr. Y. Vasudeva Rao</td>
+              <td>IIT, Bhubaneswar</td>
+            </tr>
+            <tr>
+              <td>Dr. G. Swami Naidu</td>
+              <td>JNTUKCEV, Vizianagaram</td>
+            </tr>
+            <tr>
+              <td>Dr. N. V. Uma Mahesh</td>
+              <td>NIT, Warangal</td>
+            </tr>
+            <tr>
+              <td>Dr. Ram Seshu</td>
+              <td>NIT, Warangal</td>
+            </tr>
+            <tr>
+              <td>Dr. G. C. Rao</td>
+              <td>AU, Visakhapatanam</td>
+            </tr>
+            <tr>
+              <td>Dr. Bighnaraj Naik</td>
+              <td>VSSUT, Burla, Odisha, India</td>
+            </tr>
+            <tr>
+              <td>Dr. Vijayasree</td>
+              <td>Director (Research), QIS Engg. College, Ongole</td>
+            </tr>
+            <tr>
+              <td>Dr. K. S. Kusuma</td>
+              <td>MCRC, New Delhi</td>
+            </tr>
+            <tr>
+              <td>Dr. P. Subba Rao</td>
+              <td>JNTUK, Kakinada</td>
+            </tr>
+            <tr>
+              <td>Dr. S. Srinivas Kumar</td>
+              <td>JNTUK, Kakinada</td>
+            </tr>
+            <tr>
+              <td>Dr. K. Chandra Bhushana Rao</td>
+              <td>JNTUKCEV, Vizianagaram</td>
+            </tr>
+            <tr>
+              <td>Dr. D. P. Mohapatra</td>
+              <td>NIT, Rourkela</td>
+            </tr>
+      </table>
+    </div>
+
+    <div class="confcomnext">
+      <h3>Publicity Chair (s)</h3>
+      <h4>Dr. Saidulu</h4>
+      <h4>Mr. O. Venkatkrishan</h4>
+      <h4>Mr. B. Satish</h4>
+      <h4>Ms. R Prameela Devi </h4>
+      <p>Dept. of EIE, CVR College of Engineering</p>
+
+    <h3>Logistic Chair (s)</h3>
+      <h4>Mr. K. Uday</h4>
+      <p>Assistant Professor, Dept. of EIE, CVR College of Engineering</p>
+      <h4>Mr. P. ChoudeshVerma</h4>
+      <p>Department of EIE, CVR College of Engineering</p>
+      <h4>Mr. G. Venkateswarulu</h4>
+      <p>Department of EIE CVR College of Engineering</p>
+
+      <h3>Finance Chair (s)</h3>
+      <h4>Mr. D. Shyam Prasad</h4>
+      <p>Sr. Asst. Professor, EIE, CVR College of Engineering</p>
+      <h4>Ms. Y Divya</h4>
+      <p>Asst. Professor, Dept. of EIE, CVR College of Engineering</p>
+
+      <h3>Local Organizing Committee</h3>
+      <h4>Mr. O. Venkata Krishna, </h4>
+      <p>Associate Professor, CVR College of Engineering</p>
+      <h4>Mr. D. Shyam Prasad </h4>
+      <p>Sr. Assistant Professor, CVR College of Engineering</p>
+      <h4>Ms. V. Sreelatha Reddy</h4>
+      <p>Assistant Professor, CVR College of Engineering</p>
+      <h4>Mr. G. Venkateswarlu</h4>
+      <p>Assistant Professor, CVR College of Engineering</p>
+      <h4>Mr. P. Chowdesh Varma</h4>
+      <p>Assistant Professor, CVR College of Engineering</p>
+      <h4>Ms. Y. Divya Reddy</h4>
+      <p>Assistant Professor, CVR College of Engineering</p>
+      <h4>Ms. R. Prameela Devi</h4>
+      <p>Assistant Professor, CVR College of Engineering</p>
+      <h4>Mr. K. Uday, M.Tech</h4>
+      <p>Assistant Professor, CVR College of Engineering</p>
+      <h4>Ms. K. Padma Leela</h4>
+      <p>Assistant Professor, CVR College of Engineering</p>
+      <h4>Mr. C. Pramod Kumar</h4>
+      <p>Assistant Professor, CVR College of Engineering</p>
+
+    </div>
+
+
+    <div class="addresss">
+      <h3>Address for Communication</h3>
+      <h5>ICISPC-2019</h5>
+      <table>
+        <tr>
+          <td>Dr. Narendra B MustareConvener
+    Phone : +91-7978568017
+    E-mail: drnamuste@gmail.com</td>
+          <td>Dr. Santosh Kumar Sahoo
+    Convener
+    Phone: +91-9438298162
+    E-mail: Santosh.kr.sahoo@gmail.com</td>
+        </tr>
+      </table>
+    </div>
+
+
+    <footer class="site-footer">
+      <div class="container">
+
+        <h4>CVR College of Engineering</h4>
+        <p>EIE <i>(ELECTRONICS AND INSTRUMENTATION ENGINEERING)</i></p>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright © 2022 All Rights Reserved by
+              <a href="https://cvr.ac.in/home4/index.php">CVR College of Engineering</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100063684410759"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/cvrcoenews"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="https://www.instagram.com/aryan.satya_/"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/school/cvrcoe/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
